@@ -1,18 +1,30 @@
 
+
+body button{
+    border-radius: 10px;
+}
 .topNav {
     background-color: #262336;
 
     color: #686472;
+
+    border-bottom: 1px solid #686472;
 }
 
-.topNav ul{
-    list-style: none ;
+.topNav ul {
+
+    text-align: center;
+    font-size: x-large;
 }
 
+.topNav li {
+    display: inline;
+   
+}
 
 
 .heroBlock {
-    background-color: #686472;
+    background-color: #262336 ;
     color: white;
 
 }
@@ -35,6 +47,13 @@
 .pricingBlock {
     background-color: #d8d4d4;
     text-align: center;
+
+
+}
+
+.pricingBlock button {
+    background-color: #f29b66;
+    color: white;
 }
 
 .box1 {
@@ -87,6 +106,10 @@
     padding-bottom: 20px;
 }
 
+.detailsBlock button {
+    background-color: #f29b66;
+    color: white;
+}
 
 .logoImages {
     background-color:#322f40 ;
@@ -104,24 +127,21 @@
 
 }
 
-@media (max-width: 768px){
-    .topNav li {
-        font-size: 150%;
-        text-align: center;
-    }
 
-    .topNav h2 {
-        text-align: center;
-    }
-
-    .topNav p {
-        text-align: center;
-    }
-}
 
 @media (min-width:768px){
+    
+    .topNav ul {
+
+        text-align: right;
+    }
+    
     .topNav li {
-        display: inline-block;
+        display: inline;
+    }
+
+    .socialButtons {
+       text-align: right;
     }
 
 }
@@ -132,9 +152,9 @@
 
         text-align: left;
 
+        
     }
 
-    
 
     
     
