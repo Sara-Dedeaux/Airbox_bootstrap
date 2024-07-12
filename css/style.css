@@ -9,10 +9,7 @@
     list-style: none ;
 }
 
-.topNav li {
-    font-size: 150%;
-    text-align: center;
-}
+
 
 .heroBlock {
     background-color: #686472;
@@ -98,4 +95,47 @@
 .bottomBar {
     background-color: #1a1921;
     color: grey;
+}
+
+.detailsBlock li::marker{
+        
+    color: #f29b66;
+
+
+}
+
+@media (max-width: 768px){
+    .topNav li {
+        font-size: 150%;
+        text-align: center;
+    }
+
+    .topNav h2 {
+        text-align: center;
+    }
+
+    .topNav p {
+        text-align: center;
+    }
+}
+
+@media (min-width:768px){
+    .topNav li {
+        display: inline-block;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .detailsBlock ul {
+        list-style-position: inside;
+
+        text-align: left;
+
+    }
+
+    
+
+    
+    
 }
