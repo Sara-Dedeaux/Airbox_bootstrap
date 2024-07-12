@@ -5,10 +5,23 @@
     color: #686472;
 }
 
+.topNav ul{
+    list-style: none ;
+}
+
+.topNav li {
+    font-size: 150%;
+    text-align: center;
+}
+
 .heroBlock {
     background-color: #686472;
     color: white;
 
+}
+
+.heroBlock div {
+    text-align: center;
 }
 
 .aboutBlock {
@@ -17,9 +30,14 @@
     
 }
 
+.aboutBlock p {
+    text-align: center;
+}
+
 
 .pricingBlock {
     background-color: #d8d4d4;
+    text-align: center;
 }
 
 .box1 {
@@ -30,8 +48,19 @@
     background-color: #6f6c89;
 }
 
+.box3 {
+    border-left: 30px solid #ffffff;
+    border-right: 30px solid #fff;
+    border-bottom: 30px solid #fff;
+    border-top: 30px solid #6f6c89;
+    display: inline-block;
+    position: absolute;
+    margin-left: -30px;
+}
+
 .box4  {
     background-color:  #ffffff;
+    padding-top: 60px;
 }
 
 .box6 {
@@ -40,6 +69,7 @@
 
 .box8 {
     background-color:  #ffffff;
+    padding: 10px;
 }
 
 .box5 {
@@ -53,7 +83,13 @@
 .detailsBlock {
     background-color:  #262336;
     color: white;
+    text-align: center;
 }
+
+.detailsBlock .buttonSpace {
+    padding-bottom: 20px;
+}
+
 
 .logoImages {
     background-color:#322f40 ;
